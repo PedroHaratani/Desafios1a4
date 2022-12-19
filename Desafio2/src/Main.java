@@ -8,7 +8,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         DecimalFormat df = new DecimalFormat("0.00");
 
-
+        System.out.println("Insira um valor");
         valor = in.nextFloat();
         if(valor <0 ) {
             System.out.println("Insira um valor positivo");
